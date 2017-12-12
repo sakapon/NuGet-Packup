@@ -62,7 +62,7 @@ NuGetPackup.exe を実行すれば、NuGet パッケージが作成されます�
 #### 参照
 * [NuGet Packup](https://www.nuget.org/packages/Keiho.Tools.NuGetPackup/)
 * [Nuspec Reference](http://docs.nuget.org/docs/reference/nuspec-reference)
-* [Using NuGet Packup](Using-NuGet-Packup) : 典型的な利用プロセス
+* [Using NuGet Packup](https://github.com/sakapon/NuGet-Packup/wiki/Using-NuGet-Packup) : 典型的な利用プロセス
 * [NuGet パッケージを作成して公開する](https://sakapon.wordpress.com/2013/07/16/nugetpackage/)
 
 #### 補記
