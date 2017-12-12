@@ -43,9 +43,9 @@ AssemblyMetadata 属性を利用して値を指定しておきます。
 
 必要であれば、[.nuspec ファイルの仕様](http://docs.nuget.org/docs/reference/nuspec-reference)に従って Package.nuspec.xml を編集します。  
 例えば、
-* <frameworkAssemblies> : .NET Framework アセンブリへの参照
-* <dependencies> : パッケージへの参照
-* <files> : パッケージに含めるファイル
+* `<frameworkAssemblies>` : .NET Framework アセンブリへの参照
+* `<dependencies>` : パッケージへの参照
+* `<files>` : パッケージに含めるファイル
 
 などがよく使われると思います。  
 既定では、bin\Release にあるファイルをライブラリとして追加します。
