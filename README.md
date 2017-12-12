@@ -27,6 +27,7 @@ AssemblyInfo.cs に最初から記述されている AssemblyFileVersion 属性�
 AssemblyMetadata 属性を利用して値を指定しておきます。
 
 | プレースホルダー | 値の取得先 |
+----|----
 | **$id$** | プロジェクトのプロパティのアセンブリ名 |
 | **$version$** | AssemblyFileVersion 属性 |
 | $title$ | AssemblyTitle 属性 |
@@ -38,7 +39,7 @@ AssemblyMetadata 属性を利用して値を指定しておきます。
 | $tags$ | AssemblyMetadata 属性、キー Tags |
 | $releaseNotes$ | AssemblyMetadata 属性、キー ReleaseNotes |
 
-![](https://github.com/sakapon/NuGet-Packup/blob/master/Images/NuGetPackup-assembly.png)
+![](Images/NuGetPackup-assembly.png)
 
 必要であれば、[.nuspec ファイルの仕様](http://docs.nuget.org/docs/reference/nuspec-reference)に従って Package.nuspec.xml を編集します。  
 例えば、
@@ -49,7 +50,7 @@ AssemblyMetadata 属性を利用して値を指定しておきます。
 などがよく使われると思います。  
 既定では、bin\Release にあるファイルをライブラリとして追加します。
 
-![](https://github.com/sakapon/NuGet-Packup/blob/master/Images/NuGetPackup-nuspec.png)
+![](Images/NuGetPackup-nuspec.png)
 
 ### 実行方法
 NuGetPackup.exe を実行すれば、NuGet パッケージが作成されます。  
