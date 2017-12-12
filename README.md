@@ -1,7 +1,7 @@
 ## NuGet Packup
 NuGet Packup is a tool to create a NuGet package for the project, with getting values from AssemblyInfo.
 
-[NuGet Packup](http://nuget.org/packages/Keiho.Tools.NuGetPackup/) は、アセンブリの情報 (主に AssemblyInfo.cs) から必要な値を取得して、  
+[NuGet Packup](https://www.nuget.org/packages/Keiho.Tools.NuGetPackup/) は、アセンブリの情報 (主に AssemblyInfo.cs) から必要な値を取得して、  
 NuGet パッケージを作成するためのツールです。
 
 ### インストール方法
@@ -12,7 +12,7 @@ Install-Package Keiho.Tools.NuGetPackup
 ```
 を実行すればインストールできます。
 
-NuGet Packup をインストールすると、[NuGet.CommandLine](http://nuget.org/packages/NuGet.CommandLine/) も同時にインストールされます。  
+NuGet Packup をインストールすると、[NuGet.CommandLine](https://www.nuget.org/packages/NuGet.CommandLine/) も同時にインストールされます。  
 インストールが完了すると、次のファイルがプロジェクトに追加されます。
 * NuGetPackup.exe
 * Package.nuspec.xml
@@ -60,10 +60,10 @@ NuGetPackup.exe を実行すれば、NuGet パッケージが作成されます�
 * .NET Framework 4.5 以降
 
 #### 参照
-* [NuGet Packup](http://nuget.org/packages/Keiho.Tools.NuGetPackup/)
+* [NuGet Packup](https://www.nuget.org/packages/Keiho.Tools.NuGetPackup/)
 * [Nuspec Reference](http://docs.nuget.org/docs/reference/nuspec-reference)
 * [Using NuGet Packup](Using-NuGet-Packup) : 典型的な利用プロセス
-* [NuGet パッケージを作成して公開する](http://sakapon.wordpress.com/2013/07/16/nugetpackage/)
+* [NuGet パッケージを作成して公開する](https://sakapon.wordpress.com/2013/07/16/nugetpackage/)
 
 #### 補記
 拡張子が .nuspec であるファイルを NuGet パッケージに含めることができないため、  
